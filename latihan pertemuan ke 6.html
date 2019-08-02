@@ -1,0 +1,36 @@
+<script>
+  for (let number = 1; number < 11; number++) {
+       document.write('Bilangan ke - ' + number + '<br>');
+   }
+   const arr = [
+        '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21'
+    ];
+    
+    arr.forEach(e =>{
+        console.log(e);
+    });
+
+
+     arr.map((value, index) => {
+         document.write('<br>'+ 'Bilangan ke- ' + value);
+     })
+
+     document.write('<br> ')
+    let number = 10;
+    document.write(('<br>' + 'bilangan ke-' + number++).repeat(10));
+   
+    document.write('<br>')
+    let a = 27;
+   while (a < 35){
+       document.write('(WHILE) Bilangan ke-' + a + '<br>');
+       a++;
+   }
+  
+   document.write('<br>')
+
+   let number1 = 37;
+   do {
+       document.write('(DO WHILE) yang ke-' + number1 + '<br>');
+       number1++;
+   } while (number1 < 51);
+</script>

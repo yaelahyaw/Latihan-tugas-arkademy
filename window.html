@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="keluarkanAlert()">keluarkanAlert</button>
+    <br>
+    <button onclick="keluarkanConfirm()">keluarkanConfirm</button>
+    <p id="motor"></p>zc]9
+    <br>
+    <button onclick="keluarkanPrompt()">keluarkanPrompt</button>
+</body>
+<script>
+  function keluarkanAlert(){
+      window.alert("EHHH TAPI BOONGGGGG!!!!! WKWKWKWK");
+  }
+  function keluarkanConfirm(){
+     window.confirm('ini adalah confirm')
+  }
+  const keluarkanPrompt = () => {
+      const motor = prompt('Nama motor anda?');
+      document.getElementById('motor').innerHTML = "Motor anda: " + motor;   
+  }
+</script>
+</html>
